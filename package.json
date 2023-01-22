@@ -1,0 +1,30 @@
+{
+  "name": "deep-space-theme",
+  "displayName": "Deep Space",
+  "description": "Dark theme for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "Thales",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thalesevaristo/Deep-Space-Theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme"
+  ],
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Deep Space",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Deep Space-color-theme.json"
+      }
+    ]
+  }
+}
